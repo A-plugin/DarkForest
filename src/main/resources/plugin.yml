@@ -1,0 +1,8 @@
+name: DarkForest
+version: '${version}'
+main: org.aplugin.darkforest.DarkForest
+api-version: '1.20'
+author: APO2073
+website: youtube.be/@apo_
+libraries:
+  - org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.0.0
