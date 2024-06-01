@@ -41,6 +41,18 @@ class StarS {
         return stars.toString()
     }
 
+    fun StageSet(i: Int): String {
+        val stars = StringBuilder()
+        for (j in 0..<i) {
+            stars.append("★")
+        }
+        for (k in stars.length..9) {
+            stars.append("☆")
+        }
+
+        return stars.toString()
+    }
+
     fun p(x: Int): Int {
         val y = -x + 10
         return y * 10

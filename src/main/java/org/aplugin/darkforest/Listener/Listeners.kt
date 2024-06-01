@@ -140,6 +140,7 @@ class Listeners: Listener {
             }
         }
     }
+
     //파일런=====================================================================
     val manager= Bukkit.getScoreboardManager()
     val board=manager.newScoreboard

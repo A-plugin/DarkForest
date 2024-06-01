@@ -4,5 +4,8 @@ main: org.aplugin.darkforest.DarkForest
 api-version: '1.20'
 author: APO2073
 website: youtube.be/@apo_
+commands:
+  dark:
+    description: DarkForest Commands
 libraries:
   - org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.0.0
