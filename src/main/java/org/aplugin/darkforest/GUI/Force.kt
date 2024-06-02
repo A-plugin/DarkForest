@@ -24,7 +24,7 @@ import org.bukkit.inventory.EquipmentSlot
 import java.util.*
 import java.util.function.Predicate
 
-class Upgrade:Listener {
+class Force:Listener {
     var star:StarS=StarS()
     var df =DarkForest.Instance
     var enchantable=Enchantable()
